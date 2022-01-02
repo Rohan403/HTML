@@ -1,0 +1,33 @@
+<html>
+  <body>
+    <h3>Geekster Addmission Form</h3>
+    <!--Text,email,checkbox,submit,radio,range,url,color,password,date,file,url-->
+    <form>
+      <input type="text" name="First_Name" placeholder="First Name" name="f_name"  /><br>
+      <br>
+      <input type="text" name="Last_Name" placeholder="Last Name" name="l_name" /><br><br>
+      <input type="password" name="Password" Placeholder="Enter your password" required minlength="8" maxlength = "10" /><br><br>
+      <input type="text" name="city" placeholder="Enter city your city name" value="Odisha" readonly/><br><br>
+      <input type="text" name="city" placeholder="Enter city your city name" value="Odisha" disabled/><br><br>
+      <input type="text" name="Marks" placeholder="Enter Marks" min ="0" max="100"/><br><br>
+      <select name="country">
+          <option value="01">India</option>
+          <option value="02">USA</option>
+          <option value="03">US</option>
+      </select><br><br>
+      <input type="Submit" />
+    </form>
+    <!--
+    <input type="text" placeholder="First Name" name="f_name" required/>
+    <input type="Submit" placeholder="Last Name" name="l_name" />
+    -->
+    <!--Here sublit tag inside form will connect you to Backend 
+        but if you will put it outside the form tag it will
+         not connect to backend so basically form is a specialized
+          container which connects you to backend so we use form tag
+           inorder to connect to backend-->
+           <!--We use name attribute to send a data to the browser so we use name keyword which will specify to the browser-->
+           <!--We use required attribute it it mandatory to fill out this field-->
+           <!--We use value to print default value and by using readonly we cannot change the value-->
+  </body>
+</html>
