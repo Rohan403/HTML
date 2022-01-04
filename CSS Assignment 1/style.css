@@ -1,0 +1,50 @@
+.header{
+   border:1px solid black;
+   height:50px;
+   background-color:black;
+}
+.h1{
+    float:right;
+    color:antiquewhite;
+    margin-top: 19px;
+}
+a{
+    text-decoration:none;
+}
+.l1{
+   
+    color:white;
+    margin-top:15px
+}
+.table{
+    display:inline-block;
+    margin-top: 20px;
+}
+body{
+    background-color:rgba(97, 52, 67, 0.781)
+}
+.para1{
+    border:1px solid black;
+    float:right;
+    color:black;
+    background-color:aquamarine;
+    margin-right:280px;
+    margin-top:20px;
+}
+h2{
+    text-align:center;
+    color:blue;
+}
+.para2{
+    border:1px solid black;
+    float:right;
+    color:black;
+    background-color:aquamarine;
+    margin-right:280px;
+    margin-top:20px;
+}
+footer{
+    border:1px solid black;
+   height:50px;
+   background-color:black;
+}

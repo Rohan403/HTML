@@ -1,0 +1,29 @@
+.title{
+    margin:auto;
+    margin-bottom: 20px;
+    text-align:center;
+    width: 210px;
+    color:blue;
+    border: solid black 2px;
+    }
+
+    input[type="button"]
+    {
+    background-color:rgba(236, 116, 18, 0.808);
+    color: black;
+    border: solid black 2px;
+    width:100%;
+    }
+
+    input[type="text"]
+    {
+    border: solid black 2px;
+    }
+    table{
+        border:2px solid black;
+        margin: auto;
+        height:180px;
+        width:fit-content;
+        background-color:aquamarine;
+    }
+   
