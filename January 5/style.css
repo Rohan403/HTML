@@ -1,0 +1,37 @@
+/*li{
+    color:red;
+}/*
+/*ul{
+    color:inherit;
+}*/
+p{
+    color:greenyellow;
+}
+div{
+    color:green;
+}
+.green{
+    color:green;
+}
+/*Decendent combinator ()*/
+.red span{
+    color:red;
+}
+/*Span combinator (>)/*
+/*Example of sibling*/
+/*#special{
+    color: red;
+}*/
+#special+li{
+    color:blue;/*It will now print the next line*/
+}
+/*General sibling selector*/
+#special~li{
+    color:red;
+}
+button:focus{
+    background-color: aqua;
+}
+button:hover{
+    color:green;
+}
