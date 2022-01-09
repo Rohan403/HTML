@@ -60,17 +60,23 @@ pre{
 }
 strong{
     font-size: 28px;
-    margin-left:150px;
+    margin-left:130px;
 }
 .abcd{
     font-size:35px;
-    
-    margin-top: 50px;
-  margin-right:200px;
+    margin-top: -400px;
+  margin-right:350px;
      float:right;
 }
-#para{
+.para{
     font-size: 18px;
     margin-right:200px;
     float:right;
+    position:relative;
+    bottom:250px;
+    left:100px;
+}
+.image2 img{
+    position:relative;
+    top:-100px;
 }
