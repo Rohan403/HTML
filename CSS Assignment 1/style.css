@@ -2,6 +2,7 @@
    border:1px solid black;
    height:50px;
    background-color:black;
+   position:sticky;
 }
 .h1{
     float:right;
